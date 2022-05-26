@@ -7,6 +7,11 @@ cd ivoox-rss
 npm install
 ```
 
+## Usage
+```sh
+npm start
+```
+
 ## Configuration
 
 ### Envs

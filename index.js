@@ -68,7 +68,7 @@ async function getRSS(res, name) {
         const code = result[1];
         if (code) {
             let replacement = `<enclosure url="http://${HOST}:${PORT}/${name}/${code}"`;
-            if (count < feed.links) {
+            if (count < feed.redirects) {
                 const secureUrl = await getSecureLink(code);
                 if (secureUrl) {
                     replacement = `<enclosure url="${secureUrl}"`;
