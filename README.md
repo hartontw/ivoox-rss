@@ -17,6 +17,7 @@ npm start
 ### Envs
 
 ```HOST``` default *localhost*
+
 ```PORT``` default *3000*
 
 Is possible create a file called ```.env``` in the root directory (same level as this README).
@@ -43,4 +44,4 @@ Example:
 }
 ```
 
-The seek functionalitty is not working. The field ```redirects``` is for redirect the last ```x``` episodes to enable seeking for those at least. High values in this field implies longer response time.
+The seek functionalitty is not working. The field ```redirects``` is for redirect the last ```n``` episodes to enable seeking for those at least. High values in this field implies longer response time.
