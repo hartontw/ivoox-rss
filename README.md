@@ -16,8 +16,8 @@ npm start
 
 ### Envs
 
-HOST | default localhost
-PORT | default 3000
+```HOST``` default *localhost*
+```PORT``` default *3000*
 
 Is possible create a file called ```.env``` in the root directory (same level as this README).
 
