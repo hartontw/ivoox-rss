@@ -1,0 +1,27 @@
+{
+  "name": "ivoox-rss",
+  "version": "1.0.0",
+  "description": "Creates and serves an rss file compatible with all apps including mpd and mopidy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hartontw/ivoox-rss.git"
+  },
+  "keywords": [
+    "ivoox",
+    "rss"
+  ],
+  "author": "Daniel 'Harton'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hartontw/ivoox-rss/issues"
+  },
+  "homepage": "https://github.com/hartontw/ivoox-rss#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}
